@@ -1,0 +1,15 @@
+101, Milk (300 grams), 100
+102, Tea (25 Pcs), 625
+103, Tea Bag (25 Pcs), 625
+104, Tulsi Drop (30ml), 190
+105, Combiflame (30 Tab), 120
+106, Podin Hara (60 Tab), 220
+107, Orange Juice (1 Ltr.), 199
+108, Berry Juice (1 Ltr.), 249
+109, Ghee (200ml), 720
+110, Liv-Ease (200ml), 749
+111, Gas-O-Free (200ml), 599
+112, Toned Milk (500ml), 199
+113, Face cream (500ml), 199
+114, Gas-O-Fast (500ml), 199
+115, Honey Syrup (500ml), 199
