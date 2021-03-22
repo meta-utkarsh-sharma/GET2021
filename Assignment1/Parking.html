@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./landing.css">
+    <title>Meta Parking</title>
+</head>
+
+<body>
+    <nav class="nav_container">
+        <ul class="nav_list">
+            <a class="nav_tab" href="#add-employee">ADD EMPLOYEE</a>
+            <a class="nav_tab" href="#add-vehicle">ADD VEHICLE</a>
+            <a class="nav_tab" href="#feedback">GIVE FEEDBACK</a>
+            <a class="nav_tab" href="#pricing">PRICING</a>
+        </ul>
+    </nav>
+    <header class="page_header">
+        <h1>WELCOME TO META PARKING !</h1>
+    </header>
+    <main>
+        <section class="section" id="add-employee">
+            <span>
+                <img src="./assets//images/imp-employees.jpg" alt="Employees Image">
+            </span>
+            <span>
+                <form>
+                    <h2 class="heading_region">Add Employee</h2>
+                    <br>
+                    <label for="emp_name">Full Name</label>
+                    <input type="text" id="emp_name" placeholder="Your Name"><br>
+
+                    <label for="male">Gender</label>
+                    <br>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label><br><br>
+
+                    <label for="emp_email">Email</label>
+                    <input type="email" id="emp_email" placeholder="Your Email"><br>
+
+                    <label for="emp_password">New Password</label>
+                    <input type="password" id="emp_password" placeholder="Enter Password"><br>
+                    <label for="emp_confirm_password">Confirm Password</label>
+                    <input type="password" id="emp_confirm_password" placeholder="Re-Enter Password"><br>
+
+                    <label for="emp_contact">Contact Number</label>
+                    <input type="tel" id="emp_contact" placeholder="Your Number"><br>
+
+                    <input type="submit" value="ADD EMPLOYEE"><br>
+                </form>
+            </span>
+        </section>
+        <div class="split_line">
+        </div>
+        <section class="section" id="add-vehicle">
+            <span>
+                <img src="./assets//images/img-vehicle.jpg" alt="Vehicles Image">
+            </span>
+            <span>
+                <form>
+                    <h2 class="heading_region">Add Vehicle</h2>
+                    <br>
+                    <input type="text" id="vehicle_brand" placeholder="Vehicle Company"><br>
+                    <input type="text" id="vehicle_model" placeholder="Vehicle Model"><br>
+                    <input type="text" id="vehicle_type" placeholder="Vehicle Type"><br>
+                    <input type="text" id="vehicle_number" placeholder="Vehicle Number"><br>
+
+                    <textarea name="message" rows="3" cols="30" placeholder="Vehicle identification details">
+                    </textarea>
+                    <br>
+                    <input type="submit" value="ADD VEHICLE"><br>
+                </form>
+
+            </span>
+        </section>
+        <div class="split_line">
+        </div>
+        <section class="section" id="feedback">
+            <span>
+                <img src="./assets//images/img-feedback.jpg" alt="Feedback Image">
+            </span>
+            <span>
+                <form>
+                    <h2 class="heading_region">Send Feedback</h2>
+                    <br>
+                    <input type="text" id="fee_name" placeholder="Your Name"><br>
+
+                    <input type="email" id="emp_email" placeholder="Email"><br>
+
+                    <input type="text" id="feed_sub" placeholder="Subject"><br>
+                    <textarea name="fee_message" rows="3" cols="30" placeholder="Share something...">
+                    </textarea>
+                    <br>
+
+                    <input type="submit" value="SEND FEEDBACK"><br>
+                </form>
+            </span>
+        </section>
+        <div class="split_line">
+        </div>
+        <br>
+
+        <div style="display: flex;align-items: center;justify-content: center;">
+            <h2 class="heading_region">PRICING</h2>
+        </div>
+        <section class="section" id="pricing">
+            <span id="pricing_block">
+                <h3>CYCLE</h3>
+                <br>
+                <div class="txt_purchase_monthly"><strong>
+                        <p>100$</p>
+                    </strong>
+                    <p>/Month</p>
+                </div>
+                <br>
+                <p>5$ Daily</p>
+                <p>100$ Monthly</p>
+                <p>500$ Yearly</p>
+                <br>
+                <div class="btn_purchase_now">PURCHASE NOW</div>
+            </span>
+            <span id="pricing_block">
+                <h3>MOTOR CYCLE</h3>
+                <br>
+                <div class="txt_purchase_monthly"><strong>
+                        <p>200$</p>
+                    </strong>
+                    <p>/Month</p>
+                </div>
+                <br>
+                <p>10$ Daily</p>
+                <p>200$ Monthly</p>
+                <p>1000$ Yearly</p>
+                <br>
+                <div class="btn_purchase_now">PURCHASE NOW</div>
+            </span>
+            <span id="pricing_block">
+                <h3>FOUR Wheeler</h3>
+                <br>
+                <div class="txt_purchase_monthly"><strong>
+                        <p>500$</p>
+                    </strong>
+                    <p>/Month</p>
+                </div>
+                <br>
+                <p>20$ Daily</p>
+                <p>500$ Monthly</p>
+                <p>3500$ Yearly</p>
+                <br>
+                <div class="btn_purchase_now">PURCHASE NOW</div>
+            </span>
+
+        </section>
+    </main>
+</body>
+
+</html>
