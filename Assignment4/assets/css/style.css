@@ -1,0 +1,12 @@
+.top-margin {
+    margin-top: 65px;    
+}
+.button-bottom .btn{
+    border-radius:  2rem;
+}
+.blog-header{
+    border-bottom: 1rem;
+}
+.blog-text-style{
+    font-family: 'Playfair Display', serif;
+}
