@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./dashboard.css">
+    <title>Annex</title>
+</head>
+
+<body>
+
+    <!-- vertical navbar -->
+    <div class="vertical-nav bg-light">
+
+
+        <div class="row">
+            <div class="p-5 col d-flex justify-content-center align-items-center">
+                <strong>ANNEX</strong>
+            </div>
+        </div>
+        <!-- main tabs -->
+        <div class="p-3 d-flex justify-content-start align-items-center side_tab">
+            <p style="margin: 0;" class="ml-3">Main</p>
+        </div>
+
+        <div class="p-3 d-flex justify-content-start align-items-center side_tab">
+            <i class="fas fa-desktop ml-3 mr-4"></i>
+            <p style="margin: 0;">Dashboard</p>
+        </div>
+        <div class="accordion" id="accordionAdvancedUI">
+            <div id="headingAdvancedUI" class="p-3 d-flex justify-content-start align-items-center side_tab collapsed"
+                type="div" data-toggle="collapse" data-target="#collapseAdvancedUI" aria-expanded="false"
+                aria-controls="collapseAdvancedUI">
+                <i class="fas fa-desktop ml-3 mr-4"></i>
+                <p style="margin: 0;">Advanced UI</p>
+                <i class="fas fa-chevron-right ml-5"></i>
+            </div>
+            <div id="collapseAdvancedUI" class="collapse" aria-labelledby="headingAdvancedUI"
+                data-parent="#accordionAdvancedUI">
+                Some placeholder content for the second accordion panel. This panel is hidden by default.
+            </div>
+        </div>
+        <div class="p-3 d-flex justify-content-start align-items-center side_tab">
+            <i class="far fa-calendar-alt ml-3 mr-4"></i>
+            <p style="margin: 0;">Calendar</p>
+        </div>
+        <!-- components tab -->
+        <div class="p-3 d-flex justify-content-start align-items-center side_tab">
+            <p style="margin: 0;" class="ml-3">Components</p>
+        </div>
+        <div class="accordion" id="accordionUIElements">
+            <div id="headingUIElements" class="p-3 d-flex justify-content-start align-items-center side_tab collapsed"
+                type="div" data-toggle="collapse" data-target="#collapseUIElements" aria-expanded="false"
+                aria-controls="collapseUIElements">
+                <i class="fab fa-gg-circle ml-3 mr-4"></i>
+                <p style="margin: 0;">UI Elements</p>
+                <i class="fas fa-chevron-right ml-5"></i>
+            </div>
+            <div id="collapseUIElements" class="collapse" aria-labelledby="headingUIElements"
+                data-parent="#accordionUIElements">
+                Some placeholder content for the second accordion panel. This panel is hidden by default.
+            </div>
+        </div>
+        <div class="p-3 d-flex justify-content-start align-items-center side_tab">
+            <i class="fab fa-wpforms ml-3 mr-4"></i>
+            <p style="margin: 0;">Forms</p>
+        </div>
+        <div class="accordion" id="accordionCharts">
+            <div id="headingCharts" class="p-3 d-flex justify-content-start align-items-center side_tab collapsed"
+                type="div" data-toggle="collapse" data-target="#collapseCharts" aria-expanded="false"
+                aria-controls="collapseCharts">
+                <i class="fas fa-chart-pie ml-3 mr-4"></i>
+                <p style="margin: 0;">Charts</p>
+                <i class="fas fa-chevron-right ml-5"></i>
+            </div>
+            <div id="collapseCharts" class="collapse" aria-labelledby="headingCharts" data-parent="#accordionCharts">
+                Some placeholder content for the second accordion panel. This panel is hidden by default.
+            </div>
+        </div>
+        <div class="accordion" id="accordionIcons">
+            <div id="headingIcons" class="p-3 d-flex justify-content-start align-items-center side_tab collapsed"
+                type="div" data-toggle="collapse" data-target="#collapseIcons" aria-expanded="false"
+                aria-controls="collapseIcons">
+                <i class="fas fa-icons ml-3 mr-4"></i>
+                <p style="margin: 0;">Icons</p>
+                <i class="fas fa-chevron-right ml-5"></i>
+            </div>
+            <div id="collapseIcons" class="collapse" aria-labelledby="headingIcons" data-parent="#accordionIcons">
+                Some placeholder content for the second accordion panel. This panel is hidden by default.
+            </div>
+        </div>
+        <div class="accordion" id="accordionTables">
+            <div id="headingTables" class="p-3 d-flex justify-content-start align-items-center side_tab collapsed"
+                type="div" data-toggle="collapse" data-target="#collapseTables" aria-expanded="false"
+                aria-controls="collapseTables">
+                <i class="fas fa-table ml-3 mr-4"></i>
+                <p style="margin: 0;">Tables</p>
+                <i class="fas fa-chevron-right ml-5"></i>
+            </div>
+            <div id="collapseTables" class="collapse" aria-labelledby="headingTables" data-parent="#accordionTables">
+                Some placeholder content for the second accordion panel. This panel is hidden by default.
+            </div>
+        </div>
+        <!-- extra tab -->
+        <div class="p-3 d-flex justify-content-start align-items-center side_tab">
+            <p style="margin: 0;" class="ml-3">Extra</p>
+        </div>
+        <div class="p-3 d-flex justify-content-start align-items-center side_tab">
+            <i class="fas fa-map-marker-alt ml-3 mr-4"></i>
+            <p style="margin: 0;">Maps</p>
+        </div>
+        <div class="accordion" id="accordionPages">
+            <div id="headingPages" class="p-3 d-flex justify-content-start align-items-center side_tab collapsed"
+                type="div" data-toggle="collapse" data-target="#collapsePages" aria-expanded="false"
+                aria-controls="collapsePages">
+                <i class="fas fa-pager ml-3 mr-4"></i>
+                <p style="margin: 0;">Pages</p>
+                <i class="fas fa-chevron-right ml-5"></i>
+            </div>
+            <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionPages">
+                Some placeholder content for the second accordion panel. This panel is hidden by default.
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+    <!-- content -->
+    <div class="page-content">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #5B6BE8;">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="form-inline my-2 my-lg-0 mr-auto d-flex justify-content-start align-items-center">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search" style="border-radius: 2.25rem;
+                    height: 2rem; background-color: #6D7BEB; border: #6D7BEB;">
+                </form>
+                <ul class="navbar-nav">
+                    <li class="nav-item d-flex justify-content-start align-items-center">
+                        <a class="nav-link" href="#" style="color: #fff;">English</a>
+                        <img style="width: 1.25rem;"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLX49Y9F2RiGwGvMF1mqh2am5y3-6N-xcBFAHQkFb8Epgrcux8NaE9k-yLv3NWaGPyFPw&usqp=CAU"
+                            alt="">
+                    </li>
+                    <li class="nav-item d-flex justify-content-start align-items-center ml-4">
+                        <a class="nav-link txt_white" href="#"><span><i class="far fa-envelope"
+                                    style="color: #fff;"></i></span></a>
+                    </li>
+                    <li class="nav-item d-flex justify-content-start align-items-center ml-4">
+                        <a class="nav-link txt_white" href="#"><span><i class="far fa-bell"
+                                    style="color: #fff;"></i></span></a>
+                    </li>
+                    <li class="nav-item d-flex justify-content-start align-items-center ml-4">
+                        <a class="nav-link" href="#"><img style="width: 2.5rem; margin: 0; border-radius: 50%;"
+                                src="https://cdn.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png"
+                                alt=""></a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </nav>
+
+        <!-- main -->
+        <main>
+            <div>
+                <h5 class="mx-3"><strong>Dashboard</strong></h5>
+                <div class="d-flex justify-content-between align-items-start my-4">
+                    <div class="card_box">
+                        1
+                    </div>
+                    <div class="card_box">
+                        2
+                    </div>
+                    <div class="card_box">
+                        3
+                    </div>
+                    <div class="card_box">
+                        4
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-between align-items-start my-4">
+                    <div class="card_box">
+                        <img src="assets/images/img-graph.png" alt="">
+                    </div>
+                    <div class="card_box">
+                        <img src="assets/images/img-canada.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+
+
+
+
+        <script src="https://kit.fontawesome.com/a106a82d49.js" crossorigin="anonymous"></script>
+        <script src="assets/js/jquery-3.5.1.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

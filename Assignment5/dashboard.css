@@ -1,0 +1,46 @@
+body{
+    overflow-x: hidden;
+}
+.txt_white{
+    color: #ffffff;
+}
+
+main{
+    margin: 1rem;
+}
+.vertical-nav{
+    min-width: 16rem;
+    width: 16rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #fff;
+    scroll-behavior:initial;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.page-content{
+    position: relative;
+    width: calc(100% - 16rem);
+    min-height: 1000px;
+    margin-left: 16rem;
+    background-color: #EFF3F6;
+}
+
+.side_tab{
+
+}
+.side_tab:hover{
+    background-color: #E7E9FC;
+    color: rgb(16, 101, 175);
+}
+
+.card_box{
+    margin:0 1rem;
+    width: 100%; 
+    min-height: 150px; 
+    background-color: #fff;
+    border-radius: 4px;
+}
